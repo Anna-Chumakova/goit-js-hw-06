@@ -28,3 +28,4 @@ list.insertAdjacentHTML("beforeend", createListGallary(images));
 //  return liEl;
 //});
 //gallery.append(...imgGal);
+
