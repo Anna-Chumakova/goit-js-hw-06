@@ -16,7 +16,7 @@ function onCreateBoxes() {
   let fragment = new DocumentFragment();
   
   for (let i = 1; i <= inputEl.value; i += 1) {
-  valueSize += i * 10;
+  valueSize += 10;
   let divNew = document.createElement('div');
   
   divNew.style.width = `${valueSize }px`;
